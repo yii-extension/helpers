@@ -1,29 +1,34 @@
 {
-    "name": "yii-extension/template",
+    "name": "yii-extension/helpers",
     "type": "library",
-    "description": "_____",
+    "description": "Helpers for yii3",
     "keywords": [
-        "_____"
+        "yii3",
+        "helpers"
     ],
     "license": "BSD-3-Clause",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.4|^8.0"
+        "php": "^7.4|^8.0",
+        "symfony/options-resolver": "^5.2",
+        "yiisoft/arrays": "^1.0",
+        "yiisoft/json": "@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
         "roave/infection-static-analysis-plugin": "^1.7",
-        "vimeo/psalm": "^4.3"
+        "vimeo/psalm": "^4.6",
+        "yiisoft/di": "^3.0@dev"
     },
     "autoload": {
         "psr-4": {
-            "Template\\": "src"
+            "Yii\\Extension\\Helpers\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Template\\Tests\\": "tests"
+            "Yii\\Extension\\Helpers\\Tests\\": "tests"
         }
     },
     "extra": {
