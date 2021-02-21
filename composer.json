@@ -1,10 +1,10 @@
 {
-    "name": "yii-extension/helpers",
+    "name": "yii-extension/widgets",
     "type": "library",
-    "description": "Helpers for yii3",
+    "description": "Widgets for yii3",
     "keywords": [
         "yii3",
-        "helpers"
+        "widgets"
     ],
     "license": "BSD-3-Clause",
     "minimum-stability": "dev",
@@ -19,16 +19,18 @@
         "phpunit/phpunit": "^9.5",
         "roave/infection-static-analysis-plugin": "^1.7",
         "vimeo/psalm": "^4.6",
-        "yiisoft/di": "^3.0@dev"
+        "yiisoft/di": "^3.0@dev",
+        "yiisoft/form": "^1.0@dev",
+        "yiisoft/validator": "^3.0@dev"
     },
     "autoload": {
         "psr-4": {
-            "Yii\\Extension\\Helpers\\": "src"
+            "Yii\\Extension\\Widgets\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Yii\\Extension\\Helpers\\Tests\\": "tests"
+            "Yii\\Extension\\Widgets\\Tests\\": "tests"
         }
     },
     "extra": {
