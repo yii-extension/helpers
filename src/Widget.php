@@ -26,6 +26,10 @@ abstract class Widget
      */
     private static array $stack;
 
+    private function __construct()
+    {
+    }
+
     /**
      * Used to open a wrapping widget (the one with begin/end).
      *
