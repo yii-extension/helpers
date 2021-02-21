@@ -26,7 +26,7 @@ abstract class Widget
      */
     private static array $stack;
 
-    private function __construct()
+    final public function __construct()
     {
     }
 
